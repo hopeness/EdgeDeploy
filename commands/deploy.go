@@ -1,16 +1,18 @@
 package commands
 
 import (
-	"github.com/EdgeSmart/EdgeFairy/deploy"
+	"fmt"
+
 	"github.com/spf13/cobra"
 )
 
 var deployCMD = &cobra.Command{
 	Use:   "deploy",
-	Short: "Deploy EdgeFairy",
-	Long:  `Deploy EdgeFairy`,
+	Short: "Deploy EdgeDeploy",
+	Long:  `Deploy EdgeDeploy`,
 	Run: func(cmd *cobra.Command, args []string) {
-		deploy.Run()
+		// deploy.Run()
+		fmt.Println("deploy")
 	},
 }
 

@@ -1,8 +1,8 @@
 package deploy
 
 import (
-	"github.com/EdgeSmart/EdgeFairy/check"
-	"github.com/EdgeSmart/EdgeFairy/user"
+	"github.com/EdgeSmart/EdgeDeploy/check"
+	"github.com/EdgeSmart/EdgeDeploy/user"
 )
 
 // Run execute daemon

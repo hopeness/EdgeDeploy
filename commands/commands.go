@@ -5,7 +5,7 @@ import (
 )
 
 var rootCMD = &cobra.Command{
-	Use: "EdgeFairy",
+	Use: "EdgeDeploy",
 }
 
 // GetCommand return root command
